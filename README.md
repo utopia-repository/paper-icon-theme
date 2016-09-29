@@ -17,7 +17,13 @@ Software that is included is free software; you can redistribute it and/or modif
 
 Download instructions and options are available on the [official site](https://snwh.org/paper/download).
 
-###Installing From Source
+###Install
+
+You can install or update Paper on-demand via the provided `.desktop` file. Moving it to your local applications folder will allow it to appear in your applications menu.
+
+	cp -r org.snwh.paper.icons.desktop ~/.local/share/applications
+
+###Build From Source
 
 You can build and install the Paper icon themes from source:
 
@@ -26,10 +32,6 @@ You can build and install the Paper icon themes from source:
     sudo make install
 
 This procedure requires ```autotools``` on your system.
-
-Or you can install Paper by running the provided installation script:
-
-    ./install-icon-theme.sh
 
 ##Missing Icons & Requests
 
@@ -40,3 +42,9 @@ When filing an icon request or reporting a missing icon, please take care in pro
  - A short description of the application or software that you are requesting an icon for.
 
 Note: some software ships hardcoded icons, meaning when you install icons are not placed in the system-wide directory `/usr/share/icons` which makes them unthemeable.
+
+##Help & Support
+
+You can visit the support channel `#Paper-Chat` on Freenode for questions and discussion or join the Gitter chat:
+
+[![Join the chat at https://gitter.im/paper-icon-theme/Lobby](https://badges.gitter.im/snwh/paper-icon-theme.svg)](https://gitter.im/snwh/paper-icon-theme?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
