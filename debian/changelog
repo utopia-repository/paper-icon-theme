@@ -1,3 +1,14 @@
+paper-icon-theme (1.5.0-0utopia1) unstable; urgency=medium
+
+  * New upstream release.
+  * d/watch: update for latest tagging scheme (v.1.5.0)
+  * d/rules: add override_dh_fixperms to remove extraneous executable bit from
+    .svg files
+  * Bump to debhelper 11 and use Meson support instead of debian/install
+  * Update email, standards version (-> 4.1.5)
+
+ -- James Lu <james@overdrivenetworks.com>  Sat, 07 Jul 2018 16:18:02 -0700
+
 paper-icon-theme (1.4.0-0utopia1) unstable; urgency=medium
 
   * New upstream release.

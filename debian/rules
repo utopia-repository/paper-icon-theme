@@ -1,3 +1,9 @@
 #!/usr/bin/make -f
 %:
 	dh $@
+
+override_dh_fixperms:
+	dh_fixperms
+	# Remove extraneous executable bit on some icons
+	find debian/ -type f -name *.svg -exec chmod 644 {} \;
+
